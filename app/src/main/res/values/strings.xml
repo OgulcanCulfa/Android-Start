@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Vize</string>
+    <string name="giris">Giriş</string>
+    <string name="Sifre">Şifre</string>
+    <string name="KulAd">Kullanıcı Adı</string>
+</resources>

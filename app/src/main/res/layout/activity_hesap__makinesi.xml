@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Hesap_Makinesi">
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Birinci Sayıyı Giriniz" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="İkinci Sayıyı Giriniz" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Sonuç..." />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/Bin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bin" />
+
+        <RadioButton
+            android:id="@+id/Hex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hex" />
+
+        <RadioButton
+            android:id="@+id/Oct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oct" />
+
+        <RadioButton
+            android:id="@+id/Dec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dec" />
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="227dp"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/yedi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="C"
+                android:textSize="10sp"
+                app:backgroundTint="#D81E1E" />
+
+            <Button
+                android:id="@+id/sekiz"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="1/x"
+                android:textSize="10sp"
+                app:backgroundTint="#E41E1E" />
+
+            <Button
+                android:id="@+id/dokuz"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="n!"
+                android:textSize="10sp"
+                app:backgroundTint="#D62020" />
+
+            <Button
+                android:id="@+id/carp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="X"
+                android:textSize="10sp"
+                app:backgroundTint="#ED1111" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/dort"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="x²"
+                android:textSize="10sp"
+                app:backgroundTint="#DC1D1D" />
+
+            <Button
+                android:id="@+id/bes"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="e"
+                android:textSize="10sp"
+                app:backgroundTint="#C81F1F" />
+
+            <Button
+                android:id="@+id/alti"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ln"
+                android:textSize="10sp"
+                app:backgroundTint="#CC1818" />
+
+            <Button
+                android:id="@+id/cikar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:textSize="10sp"
+                app:backgroundTint="#CF2222" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bir"
+                android:layout_width="59dp"
+                android:layout_height="50dp"
+                android:text="mod"
+                android:textSize="10sp"
+                app:backgroundTint="#CC1D1D" />
+
+            <Button
+                android:id="@+id/iki"
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:text="log"
+                android:textSize="10sp"
+                app:backgroundTint="#C61B1B" />
+
+            <Button
+                android:id="@+id/uc"
+                android:layout_width="65dp"
+                android:layout_height="50dp"
+                android:text="Exp"
+                android:textSize="10sp"
+                app:backgroundTint="#D31B1B" />
+
+            <Button
+                android:id="@+id/topla"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:textSize="10sp"
+                app:backgroundTint="#C31B1B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/tan"
+                android:layout_width="53dp"
+                android:layout_height="50dp"
+                android:text="tan"
+                android:textSize="10sp"
+                app:backgroundTint="#C61919" />
+
+            <Button
+                android:id="@+id/sin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="sin"
+                android:textSize="10sp"
+                app:backgroundTint="#C82121" />
+
+            <Button
+                android:id="@+id/cos"
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:text="cos"
+                android:textSize="10sp"
+                app:backgroundTint="#CC2727" />
+
+            <Button
+                android:id="@+id/bol"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="/"
+                android:textSize="10sp"
+                app:backgroundTint="#D81B1B" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
